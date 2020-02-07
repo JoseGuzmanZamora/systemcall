@@ -1,7 +1,8 @@
 #include <linux/kernel.h>
+#include <linux/syscalls.h>
 
-asmlinkage int sys_number(int a)
+SYSCALL_DEFINE1(sys_number, int, a)
 {
-        printk("El número que ingresó es: %d \n", a)
+        printk("El numero ingresado: %d \n", a)
         return 0;
 }

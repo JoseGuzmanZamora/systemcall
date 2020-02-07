@@ -5,7 +5,7 @@
 
 int main()
 {
-         long int resultado = syscall(335, 90);
-         printf("Syscall number_hello: %d\n", resultado);
-         return 0;
+        int resultado = syscall(335, 32);
+        printf("Syscall number_hello: %d\n", resultado);
+        return 0;
 }
