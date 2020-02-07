@@ -62,7 +62,7 @@ Después de correr la función que llama a la system call, se puede visualizar e
 
 La diferencia principal entre un contenedor y una máquina virtual es la relación que cada uno tiene con el sistema operativo. El concepto de máquina virtual engloba a todo el sistema operativo, es decir, cada máquina virtual tiene su propia simulación de un sistema operativo específico, y con esto su propio kernel. Por el otro lado, un contenedor no tiene un kernel propio. Los contenedores se basan en utilizar el kernel del host, es decir de la máquina que lo está corriendo. Por lo tanto, para poder añadir un system call a un contenedor de docker no hay otra manera de hacerlo más que agregarlo al kernel del host y después probarlo en el contenedor, sin embargo, sería una modificación independiente; pues, al compartir la imagen de docker ese system call no se podría utilizar en ninguna otra computadora. En pocas palabras, no se puede. 
 
-![ScreenShot](https://raw.githubusercontent.com/JoseGuzmanZamora/systemcall/master/images/img9.png)
+![ScreenShot](https://raw.githubusercontent.com/JoseGuzmanZamora/systemcall/master/images/imgf.png)
 
 Como se puede verificar, la versión de kernel que muestra es una especial para docker, pero en realidad no es un kernel per se, sino una interfaz que consume el kernel de la docker-machine que lo está corriendo. 
 
