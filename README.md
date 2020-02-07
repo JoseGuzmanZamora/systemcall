@@ -4,6 +4,4 @@ El objetivo principal de este repositorio era incluir los archivos necesarios pa
 ## El Proceso Inicial
 Como primer punto, se llevó a cabo el proceso en una máquina virtual. Se utilizó una imagen de Ubuntu 18.04.3 y se manejó a través de VirtualBox para Windows. Una vez configurada la imagen se pudo empezar a realizar el proceso. 
 
-1: 
-![alt text](https://github.com/JoseGuzmanZamora/systemcall/tree/master/images/img1.png "img1")
-
+![ScreenShot](https://github.com/JoseGuzmanZamora/systemcall/images/img1.png)
