@@ -56,7 +56,7 @@ dmesg
 ```
 
 Después de correr la función que llama a la system call, se puede visualizar el resultado de cada llamada. 
-![ScreenShot](https://raw.githubusercontent.com/JoseGuzmanZamora/systemcall/master/images/img8.png)
+![ScreenShot](https://raw.githubusercontent.com/JoseGuzmanZamora/systemcall/master/images/img10.png)
 
 ## Docker - Imposible 
 
